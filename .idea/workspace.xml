@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e9f1d30-b555-4e60-8013-074c6437710d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,6 +125,14 @@
       <option name="presentableId" value="Default" />
       <updated>1508765403077</updated>
     </task>
+    <task id="LOCAL-00001" summary="testing git in jetbrains">
+      <created>1508766345681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508766345681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -154,6 +161,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testing git in jetbrains" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing git in jetbrains" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
