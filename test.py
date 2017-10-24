@@ -1,4 +1,4 @@
 import webbrowser
 import datetime
 
-print ("Testing git...")
+print "Testing git..."
