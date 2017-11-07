@@ -2,4 +2,4 @@ import webbrowser
 import datetime
 import nmap
 
-print "Testing git..."
+print "Testing git...."
