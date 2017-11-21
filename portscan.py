@@ -26,7 +26,8 @@ def scanOpenPorts(ip, ports_to_scan):
 
     # warning
     num_ports = int(ports_to_scan.split('-')[1]) - int(ports_to_scan.split('-')[0]) + 1
-    print "warning: scanning", num_ports, "ports may take", 0.17 * num_ports, "sec."
+    #print "warning: scanning", num_ports, "ports may take", 0.17 * num_ports, "sec."
+    print "warning: scanning", num_ports, "ports may take some time"
 
     # scanning open ports..
     print "Start scanning the ports", ports_to_scan ,"of '" + ip + "'..."
