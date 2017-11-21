@@ -1,5 +1,3 @@
-import webbrowser
-import datetime
 import nmap
 import socket
 import time
