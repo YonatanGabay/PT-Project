@@ -3,16 +3,16 @@ import webbrowser, nmap, random, threading
 
 
 MAX_PORT = '65535'
-LOCAL_IP = '127.0.0.1'
+LOCAL_IP = '192.168.0.105'
 
 
 
 def main():
 
-    ip = DNSrequest('www.google.com')
+    ip = '127.16.10.106' #DNSrequest('www.google.com')
 
     clock = time.time()
-    open_ports = scanOpenPorts(ip, '0-100')#+MAX_PORT)
+    open_ports = scanOpenPorts(ip, '0-1000')#+MAX_PORT)
     print 'time:', time.time() - clock, '\nports:', open_ports
 
 
