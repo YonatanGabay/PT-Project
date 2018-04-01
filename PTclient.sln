@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTclient", "PTclient\PTclient.csproj", "{6FA7A703-960E-4D83-AC00-C7D124CFFC68}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sender", "sender\sender.pyproj", "{01C87648-CD00-403B-B98F-7EA05E307213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FA7A703-960E-4D83-AC00-C7D124CFFC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA7A703-960E-4D83-AC00-C7D124CFFC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA7A703-960E-4D83-AC00-C7D124CFFC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA7A703-960E-4D83-AC00-C7D124CFFC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C87648-CD00-403B-B98F-7EA05E307213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C87648-CD00-403B-B98F-7EA05E307213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EE413B7-AB6A-4103-97C0-D875A0C011C4}
+	EndGlobalSection
+EndGlobal
