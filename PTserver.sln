@@ -1,23 +1,29 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PTserver", "PTserver\PTserver.pyproj", "{724DCDF7-3157-49E8-A5A5-8A1E8CD71499}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{724DCDF7-3157-49E8-A5A5-8A1E8CD71499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{724DCDF7-3157-49E8-A5A5-8A1E8CD71499}.Release|Any CPU.ActiveCfg = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {75D886E8-CEBB-49CE-AAFB-7765DECC44CC}
-	EndGlobalSection
-EndGlobal
+import socket
+import sys
+
+
+def main():
+    serv_soc = socket.socket()
+    serv_soc.bind(("0.0.0.0",8231))
+
+    serv_soc.listen(1)
+
+    print "waiting for connection..."
+    client_soc,client_address = serv_soc.accept()
+    print "got connection from",client_address
+
+    client_data = client_soc.recv(1024)
+    client_soc.send("got " + client_data)
+
+    print client_data
+    client_soc.close()
+    serv_soc.close()
+
+
+
+
+
+
+
+if __name__=="__main__":
+    main()
